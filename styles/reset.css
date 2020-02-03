@@ -1,0 +1,16 @@
+*, html, body, div {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	font-family: helvetica, sans-serif;
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
