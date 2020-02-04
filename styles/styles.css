@@ -42,14 +42,21 @@ header p {
     margin:  12px 0 50px 0;
     font-size: 14px;
 }
-nav ul {
+
+.menu{
+    max-width: 765px;
+    width: 100%;
+} 
+.menu ul {
     display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
     
 }
-nav ul li a {
+.menu ul li a {
     display: block;
-    margin: 0 20px;
-    padding: 12px 42px;
+    padding: 12px 31px;
     font-size: 14px;
 }
 
@@ -65,6 +72,7 @@ main {
     flex-wrap: wrap;
 }
 .container-cards .card{
+    min-width: 200px;
     width: 25%;
     padding: 22px 20px;
     display: flex;
