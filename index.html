@@ -14,7 +14,7 @@
         <nav class="menu">
             <ul>
                 <li><a href="" class="button">Conheça a Linx</a></li>
-                <li><a href="" class="button" >Ajude o algorítimo</a></li>
+                <li><a href="" class="button" >Ajude o algorítmo</a></li>
                 <li><a href="" class="button">Seus produtos</a></li>
                 <li><a href="" class="button">Compartilhe</a></li>
             </ul>
@@ -23,21 +23,21 @@
     <main class="flex-column-center">
         <h4>Sua seleção especial</h4>
         <div class="container-cards">
-            
+            <!-- Conteúdo preenchido dinamicamente através do javascript. -->
         </div>
-        <input type="button" value="Ainda mais produtos aqui!" class="button"> 
+        <input type="button" value="Ainda mais produtos aqui!" class="button" id="loadProducts"> 
     </main>
     <section class="flex-column-center">
         <h4>Compartilhe a novidade</h4>
         <p>Quer que seus amigos também ganhem a lista personalizade deles? Preencha agora!</p>
         <form action="">
-            <label for="">
+            <label for="name">
                 Nome do seu amigo:
-                <input type="text" required>
+                <input name="name" type="text" required>
             </label>
-            <label for="">
+            <label for="email">
                 E-mail:
-                <input type="email" required>
+                <input name="email" type="email" required>
             </label>
             <button type="submit" class="button">Enviar agora</button>
         </form>
