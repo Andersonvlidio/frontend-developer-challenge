@@ -25,27 +25,23 @@ header {
     background-color: var(--primary-color);
     padding: 69px 0 50px 0;
 }
-
 header h4 {
     color: var(--secundary-color);
     font-weight: 400;
     font-size: 20px;
 
 }
-
 header h2 {
     color: var(--secundary-color);
     margin:  0 0 12px 0;
     font-size: 40px;
 
 }
-
 header p {
     color: var(--secundary-color);
     margin:  12px 0 50px 0;
     font-size: 14px;
 }
-
 nav ul {
     display: flex;
     
@@ -55,4 +51,106 @@ nav ul li a {
     margin: 0 20px;
     padding: 12px 42px;
     font-size: 14px;
+}
+
+main {
+    margin: 24px 0 82px 0;
+    color: var(--primary-text-color);
+    max-width: 963px;
+    width: 100%;
+}
+.container-cards {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.container-cards .card{
+    width: 25%;
+    padding: 22px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.container-cards .card .container-img {
+    border: 1px solid var(--primary-color);
+    width: 100%;
+    padding: 6px;
+}
+.container-cards .card .container-img img{
+    width: 100%;
+}
+.container-cards .card h4 {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 14px 0 10px 0;
+}
+.container-cards .card p{
+    font-size: 12px;
+}
+.container-cards .card span{
+    font-size: 12px;
+    margin: 8px 0 6px 0;
+}
+.container-cards .card span:nth-last-child(3) {
+    font-size: 16px;
+    font-weight: 700;
+}
+.container-cards .card button {
+    padding: 6px 68px;
+}
+main input {
+    padding: 11px 36px;
+    margin-top: 23px;
+}
+
+section {
+    color: var(--primary-text-color);
+    margin: 82px 0 71px 0;
+    max-width: 760px;
+    width: 100%;
+}
+section h4 {
+    margin-bottom: 22px;
+    font-size: 18px;
+}
+section p{
+    margin: 22px 0 20px 0;
+    font-size: 14px;
+}
+section form {
+    margin-top: 19px ;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+section form label{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 0 20px;
+    margin-bottom: 25px;
+    font-size: 12px;
+}
+section form label input {
+    border: 1px solid var(--primary-color);
+    width: 100%;
+    padding: 6px;
+    margin-top: 6px;
+}
+section form button{
+    padding: 11px 85px;
+    margin-top: 25px;
+}
+
+footer{
+    background-color: var(--primary-color);
+    max-width: 1500px;
+    width: 100%;
+    padding: 70px 0;
+    color: var(--secundary-color);
+}
+
+footer p{
+    font-size: 12px;
 }
