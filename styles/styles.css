@@ -131,6 +131,7 @@ section h4{
 section p{
     margin: 22px 0 20px 0;
     font-size: 14px;
+    padding: 30px;
 }
 section form{
     margin-top: 19px ;
@@ -175,12 +176,14 @@ footer p{
 @media (max-width: 700px){
     .menu ul{
         flex-direction: column;
+        text-align: center;
     }
     .container-cards{
-        justify-content: space-between;
+        justify-content: space-around;
         padding: 10px ;
     }
     section form label{
         width: 100%;
     }
+
 }
