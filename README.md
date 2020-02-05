@@ -70,3 +70,29 @@ A sua forma de priorizar a entrega também vai ser considerada. Escreva no READM
 Em caso de dúvidas, [abra uma issue](https://github.com/chaordic/frontend-intern-challenge/issues).
 
 **Boa sorte =]**
+
+'
+
+
+
+# Desafio Linx 
+### Anderson Vieira Lidio.
+
+{link para a página}()
+
+Olá, obrigado pela oportunidade de realizar esse desafio, foi muito legal fazer parte desse processo. Espero que gostem do resultado.
+
+
+## Descrição do projeto
+O projeto consiste em uma landing page que simula um e-comerce que os produtos são gerados dinamicamente através de uma api externa.
+#### HTML
+Na parte do HTML, mantive a semântica. Evitei usar classes e id de forma excessivas e organizei a página em 4 grandes partes (Header, Main, Section e Footer).
+#### CSS
+No css eu organizei em 2 arquivos separados, um para estilização e outro para o reset, para que não haja problemas com navegadores diferentes. Também usei root para facilitar na estilização das cores. No fim ainda adicionei um media queries para responsividade.
+#### Javascript
+No javascript eu separei em 2 function; uma que que carrega os produtos da api, e a outra que renderiza no meu DOM as informações obtidas na função anterior.
+#### Commit
+a cada alteração importante na minha landing page, eu dava commits no meu github, para melhor entendimento do processo de desenvolvimento.
+#### Deploy
+o deploy foi feito através do site netifly.
+
