@@ -1,7 +1,7 @@
 # Desafio Linx 
 ### Anderson Vieira Lidio.
 
-{link para a página}()
+[link para a página](https://anderson-vieira-desafio-linx.netlify.com/)
 
 Olá, obrigado pela oportunidade de realizar esse desafio, foi muito legal fazer parte desse processo. Espero que gostem do resultado.
 
