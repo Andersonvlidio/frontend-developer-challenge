@@ -13,7 +13,7 @@ async function loadProducts() {
 function renderProducts(products) {
     products.map(product => {
         const {image, name, description, oldPrice, price, installments} = product
-        const valueReplaced = installments.value.toString().replace("." , ",")
+        const valueReplaced = installments.value.toString().replace("." , "," + "0")
         containerCards.innerHTML += `<div class="card">
                                         <div class="container-img">
                                             <img src="${image}" alt="Imagem do produto ${name}" title="${name}" >
